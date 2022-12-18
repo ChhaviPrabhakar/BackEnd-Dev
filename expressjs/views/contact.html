@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contact.css">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a href="/">Shop</a></li>
+                <li class="main-header__item"><a href="/admin/add-product">Add Product</a></li>
+                <li class="main-header__item"><a class="active" href="/contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1>Book a Call</h1>
+            <small>Book a call slot and our representative will call you within 1hr of selected time.</small><br>
+            <hr>
+            <form action="/success" method="post">
+                <label for="name">Name:</label> <br>
+                <input type="text" name="name" id="name" placeholder="First name - Last name" required> <br>
+                <label for="mail">Email:</label> <br>
+                <input type="email" name="mail" id="mail" placeholder="abc@mail.com" required><br>
+                <label for="mob">Phone:</label> <br>
+                <input type="tel" name="mob" id="mob" placeholder="+91- Enter your 10 digit mobile number."
+                    required><br>
+                <label for="toc">Time for Call:</label><br>
+                <input type="date" name="toc" id="doc" style="width: 49%" required>
+                <input type="time" name="toc" id="toc" style="width: 49%" required><br>
+                <br>
+                <input type="submit" value="Get a call" style="background-color: orange">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

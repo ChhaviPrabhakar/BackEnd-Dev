@@ -1,0 +1,29 @@
+div {
+    background-image: url("https://img.freepik.com/free-vector/realistic-handset-concept_1284-34781.jpg?w=826&t=st=1661497880~exp=1661498480~hmac=fcd38017e12aaa438dfc540f0cd36ffe4cb2d64ca33e5922aa7beeeef0de3cd6");
+
+    background-size: 100% 100%;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid rgb(7, 2, 26);
+    width: 750px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(106, 223, 238, 0.411);
+}
+h1 {
+    color: rgb(201, 33, 66);
+}
+small {
+    color: midnightblue;
+}
+input {
+    width: 99%;
+    height: 20px;
+}
+form {
+    text-align: left;
+    color: rgb(3, 1, 5);
+}
+body {
+    background-image: url(https://www.callcentrehelper.com/images/stories/2014/01/call-centre-floor-760.jpg);
+}
